@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roteiros e Copy Que Vendem para Vídeos de Corretores | Declie Broker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #0056b3;
+            --secondary-color: #ff6b00;
+            --accent-color: #ffc107;
+            --dark-color: #333;
+            --light-color: #f8f9fa;
+            --text-color: #444;
+            --success-color: #28a745;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #fff;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), #003b7a);
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .hero {
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            color: white;
+            line-height: 1.2;
+        }
+        
+        .hero h2 {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 400;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: var(--secondary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 10px;
+        }
+        
+        .btn:hover {
+            background-color: #e05e00;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-primary {
+            background-color: var(--secondary-color);
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            border: 2px solid white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        .mockup-container {
+            margin: 40px 0;
+            position: relative;
+        }
+        
+        .mockup-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: var(--box-shadow);
+        }
+        
+        section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .section-title p {
+            font-size: 1.2rem;
+            color: var(--text-color);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .problem {
+            background-color: #f9f9f9;
+        }
+        
+        .problem-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .problem-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+        }
+        
+        .problem-icon {
+            flex: 0 0 60px;
+            height: 60px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            color: white;
+            font-size: 24px;
+        }
+        
+        .problem-content h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: var(--dark-color);
+        }
+        
+        .solution {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            text-align: center;
+        }
+        
+        .solution-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .author-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 0;
+        }
+        
+        .author-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+            border: 3px solid var(--primary-color);
+        }
+        
+        .author-bio h3 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+        
+        .author-bio p {
+            font-style: italic;
+        }
+        
+        .benefits {
+            background-color: white;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .benefit-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 30px;
+            box-shadow: var(--box-shadow);
+            transition: transform 0.3s ease;
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .benefit-icon {
+            font-size: 40px;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        
+        .benefit-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            color: var(--dark-color);
+        }
+        
+        .benefit-card ul {
+            list-style-type: none;
+            margin-top: 15px;
+        }
+        
+        .benefit-card ul li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .benefit-card ul li:before {
+            content: "✓";
+            color: var(--success-color);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        
+        .testimonials {
+            background-color: #f9f9f9;
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .testimonial-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 30px;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .testimonial-content {
+            font-style: italic;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .testimonial-content:before {
+            content: """;
+            font-size: 60px;
+            color: rgba(0, 86, 179, 0.1);
+            position: absolute;
+            top: -20px;
+            left: -15px;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+        
+        .testimonial-author img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+            object-fit: cover;
+        }
+        
+        .testimonial-author-info h4 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        
+        .testimonial-author-info p {
+            font-size: 0.9rem;
+            color: #777;
+        }
+        
+        .pricing {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            text-align: center;
+        }
+        
+        .price-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 40px;
+            box-shadow: var(--box-shadow);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .price-header {
+            margin-bottom: 30px;
+        }
+        
+        .price-header h3 {
+            font-size: 1.8rem;
+            color: var(--dark-color);
+            margin-bottom: 15px;
+        }
+        
+        .original-price {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+        
+        .current-price {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+        
+        .price-features {
+            margin: 30px 0;
+            text-align: left;
+        }
+        
+        .price-features h4 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: var(--dark-color);
+            text-align: center;
+        }
+        
+        .price-feature {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+        
+        .price-feature i {
+            color: var(--success-color);
+            margin-right: 10px;
+            font-size: 1.2rem;
+            margin-top: 3px;
+        }
+        
+        .bonus-section {
+            margin-top: 40px;
+            background-color: #f0f7ff;
+            border-radius: var(--border-radius);
+            padding: 20px;
+            border: 2px dashed var(--primary-color);
+        }
+        
+        .bonus-section h4 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        .bonus-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+        
+        .bonus-item i {
+            color: var(--secondary-color);
+            margin-right: 10px;
+            font-size: 1.2rem;
+            margin-top: 3px;
+        }
+        
+        .guarantee {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 0;
+            background-color: #f0f7ff;
+            border-radius: var(--border-radius);
+            padding: 20px;
+        }
+        
+        .guarantee-icon {
+            font-size: 50px;
+            color: var(--primary-color);
+            margin-right: 20px;
+        }
+        
+        .guarantee-content h4 {
+            font-size: 1.3rem;
+            color: var(--dark-color);
+            margin-bottom: 5px;
+        }
+        
+        .urgency {
+            background-color: #fff3e0;
+            border-radius: var(--border-radius);
+            padding: 20px;
+            margin-top: 40px;
+            border: 2px solid var(--secondary-color);
+        }
+        
+        .urgency h4 {
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+        
+        .faq {
+            background-color: white;
+        }
+        
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            padding: 20px;
+            background-color: #f8f9fa;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+        }
+        
+        .faq-question:hover {
+            background-color: #e9ecef;
+        }
+        
+        .faq-answer {
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .faq-answer.active {
+            padding: 20px;
+            max-height: 500px;
+        }
+        
+        .cta {
+            background: linear-gradient(135deg, var(--primary-color), #003b7a);
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+        }
+        
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .cta p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .social-links {
+            margin: 20px 0;
+        }
+        
+        .social-links a {
+            color: white;
+            font-size: 24px;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            color: var(--secondary-color);
+        }
+        
+        .footer-links {
+            margin-bottom: 20px;
+        }
+        
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.7);
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        
+        .copyright {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero h2 {
+                font-size: 1.2rem;
+            }
+            
+            .btn {
+                padding: 12px 20px;
+                font-size: 1rem;
+            }
+            
+            .section-title h2 {
+                font-size: 2rem;
+            }
+            
+            .benefit-card, .testimonial-card {
+                padding: 20px;
+            }
+            
+            .author-info {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .author-img {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+            
+            .guarantee {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .guarantee-icon {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Declie Broker</div>
+            <div class="hero">
+                <h1>DESBLOQUEIE OS ROTEIROS PRONTOS QUE TRANSFORMAM CORRETORES EM ESPECIALISTAS EM VÍDEOS DE IMÓVEIS MCMV</h1>
+                <h2>Chega de improvisar na frente da câmera! Tenha acesso a roteiros específicos e copy persuasiva para apartamentos prontos, lançamentos e loteamentos do MCMV — mesmo se você não tem ideia do que dizer nos seus vídeos.</h2>
+                <a href="#pricing" class="btn btn-primary">QUERO ACESSAR OS ROTEIROS AGORA</a>
+                <a href="#benefits" class="btn btn-secondary">SAIBA MAIS</a>
+                
+                <div class="mockup-container">
+                    <img src="images/ebook-mockup.png" alt="Ebook Roteiros e Copy Que Vendem para Vídeos de Corretores" class="mockup-img">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="problem" id="problem">
+        <div class="container">
+            <div class="section-title">
+                <h2>Você já se viu nessa situação?</h2>
+                <p>A maioria dos corretores enfrenta esses desafios todos os dias...</p>
+            </div>
+            
+            <div class="problem-list">
+                <div class="problem-item">
+                    <div class="problem-icon">
+                        <i class="fas fa-video-slash"></i>
+                    </div>
+                    <div class="problem-content">
+                        <h3>Não sabe por onde começar ao gravar um vídeo de imóvel MCMV</h3>
+                        <p>Você fica olhando para a câmera, tentando improvisar, mas as palavras simplesmente não fluem. O resultado? Vídeos que não prendem a atenção e não geram resultados.</p>
+                    </div>
+                </div>
+                
+                <div class="problem-item">
+                    <div class="problem-icon">
+                        <i class="fas fa-comment-slash"></i>
+                    </div>
+                    <div class="problem-content">
+                        <h3>Não consegue adaptar a linguagem para cada tipo de imóvel</h3>
+                        <p>Um apartamento pronto exige uma abordagem diferente de um lançamento de loteamento. Sem saber essas diferenças, seus vídeos soam genéricos e não conectam com o público certo.</p>
+                    </div>
+                </div>
+                
+                <div class="problem-item">
+                    <div class="problem-icon">
+                        <i class="fas fa-thumbs-down"></i>
+                    </div>
+                    <div class="problem-content">
+                        <h3>Grava vários vídeos que não geram nenhum lead ou interesse real</h3>
+                        <p>Você investe tempo e energia criando conteúdo, mas não vê retorno. Enquanto isso, outros corretores estão fechando vendas com seus vídeos.</p>
+                    </div>
+                </div>
+                
+                <div class="problem-item">
+                    <div class="problem-icon">
+                        <i class="fas fa-chart-line fa-flip-vertical"></i>
+                    </div>
+                    <div class="problem-content">
+                        <h3>Continua dependendo apenas de indicações enquanto a concorrência avança</h3>
+                        <p>Enquanto você luta para conseguir clientes, os poucos corretores que dominam vídeos estão faturando R$15K, R$20K, R$30K ou mais em comissões todos os meses, apenas com imóveis do MCMV.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="solution" id="solution">
+        <div class="container">
+            <div class="section-title">
+                <h2>E se você tivesse acesso a roteiros específicos e prontos para cada tipo de imóvel MCMV?</h2>
+            </div>
+            
+            <div class="solution-content">
+                <p>Imagine só ter um roteiro <strong>ESPECÍFICO PARA APARTAMENTO PRONTO</strong> do MCMV que destaca exatamente o que seu cliente precisa ouvir...</p>
+                <p>Ou um roteiro <strong>ESPECÍFICO PARA LANÇAMENTO DE APARTAMENTO</strong> que cria urgência e desejo de reserva...</p>
+                <p>Ou ainda roteiros para <strong>LANÇAMENTO DE LOTEAMENTO</strong> e <strong>LOTEAMENTO PRONTO</strong> que enfatizam exatamente o que importa para cada tipo de cliente.</p>
+                <p>Tudo isso <strong>SEM PRECISAR CRIAR DO ZERO</strong>, apenas adaptando modelos que já foram testados e aprovados por dezenas de corretores de sucesso.</p>
+                
+                <div class="mockup-container">
+                    <img src="images/ebook-mockup-open.png" alt="Ebook Aberto Mostrando Roteiros" class="mockup-img">
+                </div>
+                
+                <div class="author-info">
+                    <img src="images/declie-broker.jpg" alt="Declie Broker" class="author-img">
+                    <div class="author-bio">
+                        <h3>Declie Broker</h3>
+                        <p>Especialista em marketing digital para o mercado imobiliário, mentor de corretores e referência no Brasil quando o assunto é vender imóveis através de tráfego pago.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>O Que Você Vai Encontrar Neste Ebook</h2>
+                <p>Um guia completo com roteiros específicos para cada tipo de imóvel MCMV</p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Fundamentos de Roteiros para Vídeos Imobiliários</h3>
+                    <p>Domine a estrutura básica que todo vídeo de sucesso precisa ter:</p>
+                    <ul>
+                        <li>A estrutura infalível de 3 partes que prende a atenção</li>
+                        <li>Como criar ganchos poderosos nos primeiros 3 segundos</li>
+                        <li>Elementos essenciais para qualquer roteiro imobiliário</li>
+                        <li>Técnicas de linguagem persuasiva para diferentes públicos</li>
+                    </ul>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Roteiros Prontos para Apartamento Pronto (MCMV)</h3>
+                    <p>Tudo o que você precisa para apresentar apartamentos já finalizados:</p>
+                    <ul>
+                        <li>Roteiro completo pronto para usar em vídeos</li>
+                        <li>Variações para apartamentos de 2 e 3 quartos</li>
+                        <li>Como destacar custo-benefício e mudança imediata</li>
+                        <li>Argumentos testados para superar objeções comuns</li>
+                    </ul>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3>Roteiros Prontos para Lançamento de Apartamento (MCMV)</h3>
+                    <p>Estratégias específicas para vender na planta:</p>
+                    <ul>
+                        <li>Roteiro focado na oportunidade e exclusividade</li>
+                        <li>Variações para diferentes fases do lançamento</li>
+                        <li>Técnicas para criar visualização mental do futuro apartamento</li>
+                        <li>Estratégias para gerar lista de espera e reservas</li>
+                    </ul>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Roteiros Prontos para Lançamento de Loteamento (MCMV)</h3>
+                    <p>Como atrair investidores e compradores finais:</p>
+                    <ul>
+                        <li>Roteiro destacando a oportunidade de investimento</li>
+                        <li>Variações para loteamentos residenciais e mistos</li>
+                        <li>Como apresentar a infraestrutura planejada</li>
+                        <li>Argumentos específicos para diferentes perfis de cliente</li>
+                    </ul>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Roteiros Prontos para Loteamento Pronto (MCMV)</h3>
+                    <p>Destaque a segurança e pronta construção:</p>
+                    <ul>
+                        <li>Roteiro focado na infraestrutura completa</li>
+                        <li>Variações para lotes residenciais e comerciais</li>
+                        <li>Como destacar casos de sucesso no loteamento</li>
+                        <li>Técnicas para criar senso de comunidade</li>
+                    </ul>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Estratégias Avançadas para Maximizar seus Vídeos</h3>
+                    <p>Leve seus resultados para o próximo nível:</p>
+                    <ul>
+                        <li>Adaptações para diferentes plataformas (Reels, Stories, YouTube)</li>
+                        <li>Sequências de vídeos que nutrem leads até a venda</li>
+                        <li>Métricas importantes para acompanhar e otimizar</li>
+                        <li>Como criar um calendário de conteúdo consistente</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>O Que Outros Corretores Estão Dizendo</h2>
+                <p>Resultados reais de quem já está usando estes roteiros</p>
+            </div>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>Antes deste ebook, eu não sabia como diferenciar meus vídeos para cada tipo de imóvel MCMV. Agora tenho roteiros específicos que destacam exatamente o que cada cliente precisa ouvir. Fechei 3 vendas no primeiro mês usando apenas o roteiro de apartamento pronto!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/testimonial-1.jpg" alt="Carlos R.">
+                        <div class="testimonial-author-info">
+                            <h4>Carlos R.</h4>
+                            <p>Corretor em São Paulo</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>O roteiro para lançamento de loteamento me ajudou a criar uma lista de espera de 27 pessoas interessadas em um novo empreendimento. Isso nunca tinha acontecido antes! A estrutura é tão clara que mesmo sendo iniciante na gravação de vídeos, consegui resultados impressionantes.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/testimonial-2.jpg" alt="Mariana L.">
+                        <div class="testimonial-author-info">
+                            <h4>Mariana L.</h4>
+                            <p>Corretora em Belo Horizonte</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>Como corretor iniciante no MCMV, eu estava perdido. Este guia me deu exatamente o que dizer para cada tipo de imóvel, e os clientes sentem a diferença. Meus vídeos agora parecem de um especialista com anos de experiência, e isso tem gerado muito mais confiança e conversões.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/testimonial-3.jpg" alt="Felipe M.">
+                        <div class="testimonial-author-info">
+                            <h4>Felipe M.</h4>
+                            <p>Corretor em Porto Alegre</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2>Investimento</h2>
+                <p>Um pequeno investimento para resultados transformadores</p>
+            </div>
+            
+            <div class="price-card">
+                <div class="price-header">
+                    <h3>Ebook "Roteiros e Copy Que Vendem para Vídeos de Corretores"</h3>
+                    <div>
+                        <span class="original-price">R$497</span>
+                        <span class="current-price">R$297</span>
+                    </div>
+                    <p>Oferta por tempo limitado</p>
+                </div>
+                
+                <div class="price-features">
+                    <h4>O Que Está Incluído:</h4>
+                    <div class="price-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Acesso imediato a todos os roteiros específicos para imóveis MCMV</p>
+                    </div>
+                    <div class="price-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Guia completo com fundamentos de roteiros para vídeos imobiliários</p>
+                    </div>
+                    <div class="price-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Roteiros prontos para apartamento pronto MCMV</p>
+                    </div>
+                    <div class="price-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Roteiros prontos para lançamento de apartamento MCMV</p>
+                    </div>
+                    <div class="price-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Roteiros prontos para lançamento de loteamento MCMV</p>
+                    </div>
+                    <div class="price-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Roteiros prontos para loteamento pronto MCMV</p>
+                    </div>
+                    <div class="price-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Estratégias avançadas para maximizar seus vídeos</p>
+                    </div>
+                    <div class="price-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Acesso vitalício a todas as atualizações futuras</p>
+                    </div>
+                </div>
+                
+                <div class="bonus-section">
+                    <h4>BÔNUS EXCLUSIVOS:</h4>
+                    <div class="bonus-item">
+                        <i class="fas fa-gift"></i>
+                        <p><strong>BÔNUS 1:</strong> Checklist de Gravação para Cada Tipo de Imóvel MCMV (Valor: R$97)</p>
+                    </div>
+                    <div class="bonus-item">
+                        <i class="fas fa-gift"></i>
+                        <p><strong>BÔNUS 2:</strong> Glossário de Termos Técnicos para Usar nos Vídeos (Valor: R$67)</p>
+                    </div>
+                    <div class="bonus-item">
+                        <i class="fas fa-gift"></i>
+                        <p><strong>BÔNUS 3:</strong> Calendário Editorial para 30 Dias de Conteúdo em Vídeo (Valor: R$147)</p>
+                    </div>
+                </div>
+                
+                <div class="guarantee">
+                    <div class="guarantee-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="guarantee-content">
+                        <h4>GARANTIA INCONDICIONAL DE 7 DIAS</h4>
+                        <p>Se por qualquer motivo você não ficar 100% satisfeito com os roteiros, basta enviar um e-mail dentro de 7 dias após a compra e devolveremos 100% do seu investimento. Sem perguntas, sem burocracia.</p>
+                    </div>
+                </div>
+                
+                <div class="urgency">
+                    <h4>ATENÇÃO: OFERTA POR TEMPO LIMITADO!</h4>
+                    <p>Os bônus exclusivos e o preço promocional estarão disponíveis apenas para as próximas 48 horas ou para as primeiras 100 pessoas (o que ocorrer primeiro).</p>
+                    <p>Depois disso, o preço voltará ao normal de R$497 e os bônus não estarão mais disponíveis.</p>
+                </div>
+                
+                <a href="#" class="btn btn-primary" style="margin-top: 30px;">QUERO ACESSAR OS ROTEIROS AGORA</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Perguntas Frequentes</h2>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Os roteiros funcionam para qualquer imóvel do MCMV?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! O ebook contém roteiros específicos para apartamentos prontos, lançamentos de apartamentos, lançamentos de loteamentos e loteamentos prontos do MCMV, cobrindo todas as principais categorias. Cada roteiro foi desenvolvido pensando nas particularidades e pontos de venda de cada tipo de imóvel.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Quanto tempo leva para adaptar os roteiros aos meus imóveis?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Em menos de 5 minutos você pode personalizar qualquer roteiro para seu imóvel específico. Basta substituir algumas informações como localização, características específicas e preço, e estará pronto para gravar. Os roteiros são estruturados de forma modular para facilitar essa adaptação rápida.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Preciso ter experiência com vídeos para usar estes roteiros?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutamente não! Os roteiros são criados pensando especialmente em quem está começando. Você só precisa seguir o modelo passo a passo. Inclusive, o ebook contém dicas específicas para quem está gravando vídeos pela primeira vez, tornando o processo simples mesmo para iniciantes.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Funciona mesmo se eu trabalho apenas com um tipo específico de imóvel MCMV?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Com certeza! Você pode focar apenas na seção que mais interessa para seu negócio atual, mas terá acesso a todos os roteiros para quando precisar expandir. Muitos corretores começam usando apenas um tipo de roteiro e, conforme expandem sua atuação, passam a utilizar os outros modelos disponíveis no ebook.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        O material tem atualizações?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Você terá acesso a todas as atualizações futuras sem custo adicional, incluindo novos roteiros que possam ser adicionados. O mercado imobiliário e as plataformas de vídeo estão sempre evoluindo, e nosso material acompanha essas mudanças para manter você sempre atualizado com as melhores práticas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta" id="cta">
+        <div class="container">
+            <h2>DESBLOQUEIE AGORA OS ROTEIROS QUE VÃO TRANSFORMAR SEUS VÍDEOS EM MÁQUINAS DE VENDAS!</h2>
+            <p>Não deixe que a falta de roteiros específicos para imóveis MCMV continue limitando seu potencial como corretor. Com o Ebook "Roteiros e Copy Que Vendem para Vídeos de Corretores", você terá exatamente o que dizer para cada tipo de imóvel, posicionando-se como especialista e atraindo leads qualificados todos os dias.</p>
+            <p>Cada dia que passa sem você dominar estes roteiros específicos é um dia de leads e vendas perdidos para a concorrência que já está usando estas estratégias.</p>
+            <a href="#pricing" class="btn btn-primary">QUERO ACESSAR OS ROTEIROS AGORA</a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">Declie Broker</div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Contato</a>
+                </div>
+                <div class="copyright">
+                    &copy; 2025 Declie Broker. Todos os direitos reservados.
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const isActive = answer.classList.contains('active');
+                
+                // Close all answers
+                document.querySelectorAll('.faq-answer').forEach(item => {
+                    item.classList.remove('active');
+                });
+                
+                // Toggle current answer
+                if (!isActive) {
+                    answer.classList.add('active');
+                }
+            });
+        });
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
